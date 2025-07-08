@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ruta de los Talayots de Mallorca</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    
+    <script src='https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@4.1.2/dist/maplibre-gl.css' rel='stylesheet' />
+    
+    <!-- para añadir perfil elevacion en Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Archivo de configuración separado -->
+    <script src="config.js"></script>
+
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        #map { position: absolute; top: 0; bottom: 220px; width: 100%; }
+        
+        /* Contenedor del gráfico */
+        #elevation-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 220px;
+            background: white;
+            border-top: 2px solid #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        #elevationChart {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        /* Estilo para los popups */
+        .maplibregl-popup-content {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .maplibregl-popup-content h3 {
+            margin: 0 0 5px 0;
+            color: #333;
+        }
+        .maplibregl-popup-content img {
+            max-width: 200px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Contenedor del gráfico de elevación -->
+<div id="elevation-container">
+    <canvas id="elevationChart"></canvas>
+</div>
+
+<script>
+    // Inicializar la aplicación usando la configuración externa
+    initApp();
+</script>
+
+</body>
+</html>

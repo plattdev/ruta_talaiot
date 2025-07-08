@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Poblat de Navetes Es Turassot",
+        "descripcion": "Conjunto arqueológico en Costitx conocido por sus navetas de habitación, un tipo de construcción anterior a los talayots.",
+        "imagenUrl": "img/turassot.avif",
+        "fuenteImagen": "Foto: Google Maps|https://lh3.googleusercontent.com/umsh/AN6v0v6EdJY96qSf0dtdlIMRt0idZAcIl4M_AUL9FWI7jj9dbwJFk1sXj_zMoQGwx3rmNgHiSeG9TS4nPA0p9b2IjSJPoQX0fFAXu62dt_pUberHLUiBmFvjT9gf9CZpSTZLRM9rJjOxJU0ZavMrZh9cNmwzp-ub0bGdn9m4L6uFW7K94UjwYdGDojKlVFZ562IqfacHg7zjlfXWsRcCC8HJ6sQf0XbTP3Wlj-vzDbPKbu97xg2kmFFisqfboaYhkzBGamOf-34RJLcB=s16383"
+      },
+      "geometry": {
+        "coordinates": [2.9510558202724564, 39.64082371221873],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Santuari de Son Corró",
+        "descripcion": "Santuario en Costitx donde se encontraron los famosos 'Caps de Bou', tres cabezas de toro de bronce de la época talayótica.",
+        "imagenUrl": "img/son_corro.avif",
+        "fuenteImagen": "Foto: propia"
+      },
+      "geometry": {
+        "coordinates": [2.933420888125387, 39.65319396271904],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Talaiot de Binifat",
+        "descripcion": "Talayot circular situado en el municipio de Sencelles, un buen ejemplo de la arquitectura defensiva de la época.",
+        "imagenUrl": "img/binifat.avif",
+        "fuenteImagen": "Foto: propia"
+      },
+      "geometry": {
+        "coordinates": [2.9380180003264753, 39.639579172454916],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Talaiot de Son Fred",
+        "descripcion": "Talayot de planta circular ubicado en el término municipal de Sineu, en el corazón del Pla de Mallorca.",
+        "imagenUrl": "img/son_fred.avif",
+        "fuenteImagen": "Foto: propia"
+      },
+      "geometry": {
+        "coordinates": [2.9120602921113248, 39.65860992400216],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cova des Camp del Bisbe",
+        "descripcion": "Cueva de ritos funerarios situada en el Pla de Mallorca, utilizada durante la época talayótica.",
+        "imagenUrl": "img/bisbe.avif",
+        "fuenteImagen": "Foto: Google Maps|https://lh3.googleusercontent.com/umsh/AN6v0v4Uz7-2vE9HhONvIbJM1MFPhaQR3OGQEOyiihmo-bFIkiOfgtHtvL7rh8O5lVDRUQlNJZUfz3bgT0dpl_GTeqHnzR9W6A0tfzOvSo5PxoE6KhRHEWdTKvGesxcDW4KQvbIozhq9leCtrW54CxtWPKmXSXqa44SP1fkss-vEdQ7cm2_Tb1GVMl9yjIV-DmUdmLMKikoWscNGetnFO3KGsyrwLmQwn8N5XtzS8F19oczMjXuL1h_uDDZb8iFNbbXQ0zTRNTmAWA=s16383"
+      },
+      "geometry": {
+        "coordinates": [2.905897269571085, 39.64938767031495],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Ses Talaies de Can Xim",
+        "descripcion": "De uso funerario avalado por el hallazgo del esqueleto de una mujer. En cambio, el uso como lugar de vivienda no está corroborado por los restos encontrados en las excavaciones conducidas hasta el momento.",
+        "imagenUrl": "img/xim.avif",
+        "fuenteImagen": "Foto: Google Maps|https://maps.google.com/maps/contrib/116326143818195101481"
+      },
+      "geometry": {
+        "coordinates": [2.9175,
+          39.6364],
+        "type": "Point"
+      }
+    }
+
+  ]
+}
