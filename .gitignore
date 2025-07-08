@@ -1,0 +1,38 @@
+# Node modules (por si se usan dependencias locales)
+node_modules/
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Salidas de dependencias o builds
+/dist/
+/build/
+
+# Archivos temporales de VSCode
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
+
+# Archivos de caché
+.cache/
+
+# Archivos de notebooks temporales
+.ipynb_checkpoints/
+
+# Archivos de configuración de SonarQube
+.sonarqube/
+
+# Otros archivos temporales
+*.tmp
+*.bak
