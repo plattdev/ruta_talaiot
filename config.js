@@ -1,5 +1,5 @@
 // Configuración de la aplicación de mapas
-const apiKey = "haBC8lYz5SpTzbnTnPAk"; // 
+const apiKey = "v2y2aCpa9ggBU6TVbFNv"; // 
 
 // Configuración del mapa
 const mapConfig = {
